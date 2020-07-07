@@ -1,0 +1,7 @@
+.link-breathing {
+  transition: opacity .4s ease-in-out;
+}
+
+.link-breathing:hover {
+  opacity: .8;
+}

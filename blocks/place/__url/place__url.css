@@ -1,0 +1,6 @@
+.place__url {
+  grid-area: url;
+  justify-self: start;
+  align-self: flex-end;
+  width: 100%;
+}
