@@ -1,0 +1,24 @@
+/* TODO FIXME : Maybe 100% ? */
+
+.page__section.page__section_cover {
+  width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .page__section.page__section_cover {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__section.page__section_cover {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__section.page__section_cover {
+    width: 1184px;
+  }
+}
+

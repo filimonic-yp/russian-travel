@@ -1,5 +1,5 @@
 .link-breathing {
-  transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in;
 }
 
 .link-breathing:hover {

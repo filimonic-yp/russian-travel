@@ -1,4 +1,5 @@
 @import url(__container/page__container.css);
+@import url(__section/page__section.css);
 
 .page {
   background-color: #2A2C2F;
@@ -6,5 +7,6 @@
   margin: 0;
   font-family: "inter";
   color: white;
+  min-width: 320px;
 
 }

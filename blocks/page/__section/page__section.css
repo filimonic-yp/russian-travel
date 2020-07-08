@@ -1,0 +1,30 @@
+@import url(page__section_cover.css);
+@import url(page__section_header-footer.css);
+@import url(page__section_lead.css);
+
+
+.page__section {
+    width: 288px;
+    margin: 0 auto;
+  }
+
+
+@media screen and (min-width: 768px) {
+  .page__section {
+    width: 720px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .page__section {
+    width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__section {
+    width: 984px;
+  }
+}
+

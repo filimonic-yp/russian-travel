@@ -2,14 +2,15 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1280, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
   <link rel="stylesheet" href="pages/index.css">
   <title>Путешествия по России</title>
 </head>
 <body class="page">
+
   <div class="page__container">
 
-    <header class="header">
+    <header class="header page__section page__section_header-footer">
       <img class="header__logo" src="images/header/header__logo.svg" alt="Упрощенная карта России"></img>
       <div class="header__lang">
         <a class="link-breathing header__lang-link header__lang-link_active" href="#">Ru</a>
@@ -19,14 +20,14 @@
 
     <main class="main">
 
-      <section class="lead">
+      <section class="lead page__section page__section_lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="images/lead/lead__image.jpg" alt="Плацкарт, боковая нижняя полка, вид в окно"></img>
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
-      <section class="intro">
+      <section class="intro page__section ">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
@@ -45,23 +46,23 @@
         </ul>
 
       </section>
-      <section class="photo-grid">
-        <img src="images/photo-grid/photo-grid__pic_01train.jpg" alt="Вид из поезда">
-        <img src="images/photo-grid/photo-grid__pic_02greater-caucasus.jpg" alt="горная система Большой Кавказ">
-        <img src="images/photo-grid/photo-grid__pic_03tuman.jpg" alt="Туман">
-        <img src="images/photo-grid/photo-grid__pic_04sochi.jpg" alt="Сочи">
-        <img src="images/photo-grid/photo-grid__pic_05ice-baikal.jpg" alt="Лёд на Байкале">
-        <img src="images/photo-grid/photo-grid__pic_06baikal.jpg" alt="Берег Байкала">
-        <img src="images/photo-grid/photo-grid__pic_07elbrus.jpg" alt="Эльбрус">
-        <img src="images/photo-grid/photo-grid__pic_08pedestrian.jpg" alt="Пешеходный переход">
-        <img src="images/photo-grid/photo-grid__pic_09kamchatka.jpg" alt="Камчатка">
-        <img src="images/photo-grid/photo-grid__pic_10kamchatka2.jpg" alt="Камчатка">
-        <img src="images/photo-grid/photo-grid__pic_11baikal2.jpg" alt="Байкал">
-        <img src="images/photo-grid/photo-grid__pic_12ergaki.jpg" alt="парк Ергаки">
+      <section class="photo-grid page__section page__section_header-footer">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_01train.jpg" alt="Вид из поезда">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_02greater-caucasus.jpg" alt="горная система Большой Кавказ">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_03tuman.jpg" alt="Туман">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_04sochi.jpg" alt="Сочи">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_05ice-baikal.jpg" alt="Лёд на Байкале">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_06baikal.jpg" alt="Берег Байкала">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_07elbrus.jpg" alt="Эльбрус">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_08pedestrian.jpg" alt="Пешеходный переход">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_09kamchatka.jpg" alt="Камчатка">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_10kamchatka2.jpg" alt="Камчатка">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_11baikal2.jpg" alt="Байкал">
+        <img class="photo-grid__item" src="images/photo-grid/photo-grid__pic_12ergaki.jpg" alt="парк Ергаки">
       </section>
 
-      <section >
-        <ul class="places">
+      <section>
+        <ul class="places page__section">
           <li class="place">
             <h2 class="place__title">Куршская коса</h2>
             <img class="place__image" src="images/places/places__image_01kurshskaya-kosa.jpg">
@@ -130,7 +131,7 @@
             <img class="place__image" src="images/places/places__image_04winter-baikal.jpg">
             <div class="place__url">
               <p class="place__url-heading">URL</p>
-              <a class="link-breathing place__link" href="https://vk.com/baikalmile" target="_blank">vk.com/baikalmile</a>
+              <a class="link-breathing place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <div class="place__text">
               <p class="place__paragraph">
@@ -151,7 +152,7 @@
             <img class="place__image" src="images/places/places__image_05karelia.jpg">
             <div class="place__url">
               <p class="place__url-heading">URL</p>
-              <a class="link-breathing place__link" href="http://vodlozero.ru/" target="_blank">vodlozero.ru</a>
+              <a class="link-breathing place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
             </div>
             <div class="place__text">
               <p class="place__paragraph">
@@ -168,27 +169,28 @@
         </ul>
       </section>
 
-      <section class="cover">
+      <section class="cover page__section page__section_cover">
         <img class="cover__background" src="images/cover/cover__background.jpg">
-        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <h2 class="cover__title">До Байкала<br>«на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>
 
-      <div></div> <!-- grid gap -->
+      <div></div>
     </main>
+
     <footer>
-        <ul class="footer">
+        <ul class="footer page__section page__section_header-footer">
           <li><a class="link-breathing footer__link" href="https://yandex.ru/maps" target="_blank" >Карты</a></li>
           <li><a class="link-breathing footer__link" href="https://yandex.ru/pogoda" target="_blank" >Погода</a></li>
           <li><a class="link-breathing footer__link" href="https://rasp.yandex.ru" target="_blank" >Расписание</a></li>
           <li><a class="link-breathing footer__link" href="https://calendar.yandex.ru" target="_blank" >Календарь</a></li>
           <li><a class="link-breathing footer__link" href="https://travel.yandex.ru" target="_blank" >Путешествия</a></li>
-          <li class="footer__copyright">© 2020. Впишите своё имя</li>
+          <li class="footer__copyright">© 2020. Алексей</li>
         </ul>
-      </nav>
     </footer>
+
     </div>
 </body>
 </html>

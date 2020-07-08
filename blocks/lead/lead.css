@@ -4,9 +4,18 @@
 @import url(__caption/lead__caption.css);
 
 .lead {
-  width: 984px;
-  margin: 56px auto 0 auto;
+  max-width: 984px;
+  margin: 0 auto;
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+@media screen and (min-width: 1280px)
+{
+  .lead {
+    margin-top: 56px;
+  }
 }
