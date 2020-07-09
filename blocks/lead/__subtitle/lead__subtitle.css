@@ -9,11 +9,24 @@
   max-width: 640px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   .lead__subtitle {
+    /* at 720px we should have 32px */
+    /* at 320px we should have 16px */
+    /*
+      at 720px 1vw is is 7.2px
+      at 720px font size is 4.44vw
+
+      at 320px 1vw is 3.2px
+      at 320px font size is 4.44vw
+
+      middle is 4.44vw
+
+    */
+    max-width: min(80%, 640px);
     margin-top: 32px;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: min(4.44vw, 32px);
+    line-height: 1.2;
   }
 }
 

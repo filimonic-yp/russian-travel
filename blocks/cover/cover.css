@@ -4,10 +4,28 @@
 @import url(__background/cover__background.css);
 
 .cover {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
 
+  margin-left:  auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top:0;
+  left: 0;
+}
+
+
+@media screen and (min-width:1024px) {
+  .cover {
+    left: calc((100vw - 100%) / -2);
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .cover {
+    width: 1184px;
+    left: 0;
+  }
 }
 
 

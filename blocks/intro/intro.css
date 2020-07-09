@@ -3,5 +3,34 @@
 @import url(__list/intro__list.css);
 
 .intro {
-  padding: 0;
+  justify-self: left;
+  text-align: left;
+  max-width: 720px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
+
+@media screen and (min-width: 768px)
+{
+  .intro {
+    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+
+@media screen and (min-width: 1024px)
+{
+  .intro {
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px)
+{
+  .intro {
+    padding-left: 0;
+  }
+}
+

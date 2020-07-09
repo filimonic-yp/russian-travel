@@ -8,9 +8,21 @@
   margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   .lead__title {
-    font-size: 96px;
-    line-height: 100px;
+    /* at 720px we should have 96px */
+    /* at 320px we should have 40px */
+    /*
+      at 720px 1vw is is 7.2px
+      96px equal to 13.3vw
+
+      at 320px 1vw is 3.2px
+      40px we should have 12.5vw
+
+      middle is 12.9vw
+
+    */
+    font-size:  min(12.9vw, 96px);
+    line-height: 1.042;
   }
 }

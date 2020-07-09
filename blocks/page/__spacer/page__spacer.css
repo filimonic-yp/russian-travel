@@ -1,0 +1,17 @@
+.page__spacer {
+  margin-top: 64px;
+}
+
+@media screen and (min-width: 768px)
+{
+  .page__spacer {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px)
+{
+  .page__spacer {
+    margin-top: 92px;
+  }
+}
