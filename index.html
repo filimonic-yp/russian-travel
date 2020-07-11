@@ -10,10 +10,10 @@
 
     <header class="header">
       <img class="header__logo" src="images/header/header__logo.svg" alt="Упрощенная карта России">
-      <div class="header__lang">
-        <a class="link-breathing header__lang-link header__lang-link_active" href="#">Ru</a>
-        <a class="link-breathing header__lang-link " href="#">En</a>
-      </div>
+      <ul class="header__lang">
+        <li class="header__lang-link-wrapper"><a class="link-breathing header__lang-link header__lang-link_active" href="#">Ru</a></li>
+        <li class="header__lang-link-wrapper"><a class="link-breathing header__lang-link header__lang-link_inactive" href="#">En</a></li>
+      </ul>
     </header>
 
     <main class="main">
@@ -37,11 +37,11 @@
         </p>
         <ul class="intro__list">
           <!-- Тут явно проще использовать <b>, чем делать 2 доп класса. <b> ваыбран как наименее семантичный тег -->
-          <li><b>Часовых поясов </b>11</li>
-          <li><b>Объектов природного наследия ЮНЕСКО </b>12</li>
-          <li><b>Объектов культурного наследия ЮНЕСКО </b>16</li>
-          <li><b>Природных заповедников </b>105</li>
-          <li><b>Аэропортов </b>241</li>
+          <li>Часовых поясов <span class="intro__list_quantity-text">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_quantity-text">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_quantity-text">16</span></li>
+          <li>Природных заповедников <span class="intro__list_quantity-text">105</span></li>
+          <li>Аэропортов <span class="intro__list_quantity-text">241</span></li>
         </ul>
       </section>
 
@@ -181,14 +181,14 @@
     </main>
 
     <footer class="page__spacer">
-        <ul class="footer">
-          <li class="footer__link"><a class="link-breathing" href="https://yandex.ru/maps" target="_blank" >Карты</a></li>
-          <li class="footer__link"><a class="link-breathing" href="https://yandex.ru/pogoda" target="_blank" >Погода</a></li>
-          <li class="footer__link"><a class="link-breathing" href="https://rasp.yandex.ru" target="_blank" >Расписание</a></li>
-          <li class="footer__link"><a class="link-breathing" href="https://calendar.yandex.ru" target="_blank" >Календарь</a></li>
-          <li class="footer__link"><a class="link-breathing" href="https://travel.yandex.ru" target="_blank" >Путешествия</a></li>
-          <li class="footer__copyright">© 2020. Алексей</li>
-        </ul>
+        <nav class="footer">
+          <a class="link-breathing footer__link" href="https://yandex.ru/maps" target="_blank" >Карты</a>
+          <a class="link-breathing footer__link" href="https://yandex.ru/pogoda" target="_blank" >Погода</a>
+          <a class="link-breathing footer__link" href="https://rasp.yandex.ru" target="_blank" >Расписание</a>
+          <a class="link-breathing footer__link" href="https://calendar.yandex.ru" target="_blank" >Календарь</a>
+          <a class="link-breathing footer__link" href="https://travel.yandex.ru" target="_blank" >Путешествия</a>
+          <p class="footer__copyright">© 2020. Алексей</p>
+        </nav>
     </footer>
 
 

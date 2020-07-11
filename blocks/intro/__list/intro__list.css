@@ -1,4 +1,4 @@
-
+@import url(_quanty-text/intro__list_quantity-text.css);
 
 .intro__list {
   list-style-type: none;
@@ -7,4 +7,5 @@
   padding-top: 32px;
   font-size: 12px;
   line-height: 18px;
+  font-weight: bold;
 }

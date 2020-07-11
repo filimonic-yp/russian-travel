@@ -1,0 +1,9 @@
+.header__lang-link-wrapper {
+  display: inline;
+  margin-left: 18px;
+}
+
+.header__lang-link-wrapper:first-of-type {
+  margin-left: 0;
+}
+
