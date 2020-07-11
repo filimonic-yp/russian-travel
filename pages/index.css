@@ -13,17 +13,22 @@
 @import url(../blocks/footer/footer.css);
 
 @font-face {
-  font-family: "inter";
+  font-family: "Inter", sans-serif;
   font-weight: 900;
+  font-style:  normal;
+  font-display: swap;
   src:
     local('Inter'),
     url(../fonts/Inter-Black.woff2) format('woff2'),
     url(../fonts/Inter-Black.woff) format('woff');
+
 }
 
 @font-face {
-  font-family: "inter";
+  font-family: "Inter", sans-serif;
   font-weight: bold;
+  font-style:  normal;
+  font-display: swap;
   src:
     local('Inter'),
     url(../fonts/Inter-Bold.woff2) format('woff2'),
@@ -31,8 +36,10 @@
 }
 
 @font-face {
-  font-family: "inter";
+  font-family: "Inter", sans-serif;
   font-weight: normal;
+  font-style:  normal;
+  font-display: swap;
   src:
     local('Inter'),
     url(../fonts/Inter-Regular.woff) format('woff2'),
