@@ -1,5 +1,7 @@
 .link-breathing {
   transition: opacity .4s ease-in;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .link-breathing:hover {

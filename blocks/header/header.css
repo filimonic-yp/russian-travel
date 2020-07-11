@@ -13,6 +13,7 @@
   align-items: flex-end;
   box-sizing: border-box;
   width: 100%;
+  max-width: 1184px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -39,11 +40,8 @@
 @media screen and (min-width: 1280px)
 {
   .header {
-    width: 1184px;
-    top: 0;
-    left: -100px;
+
     padding: 0;
-    position: relative;
   }
 }
 

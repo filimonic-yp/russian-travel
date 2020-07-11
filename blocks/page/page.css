@@ -7,7 +7,8 @@
   margin: 0 auto;
   font-family: "inter";
   color: white;
-  max-width: 984px;
+  max-width: 1184px;
+  min-width: 300px;
   text-align: center;
   overflow: visible;
 }

@@ -17,14 +17,14 @@
 
 @media screen and (min-width:1024px) {
   .cover {
-    left: calc((100vw - 100%) / -2);
+    width: 100%;
   }
 }
 
 @media screen and (min-width:1280px) {
   .cover {
-    width: 1184px;
-    left: 0;
+    width: 100%;
+    max-width: 1184px;
   }
 }
 

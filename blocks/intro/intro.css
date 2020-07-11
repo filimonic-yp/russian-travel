@@ -3,8 +3,9 @@
 @import url(__list/intro__list.css);
 
 .intro {
-  justify-self: left;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 720px;
   padding-left: 16px;
   padding-right: 16px;
@@ -13,9 +14,9 @@
 @media screen and (min-width: 768px)
 {
   .intro {
-    max-width: 720px;
     padding-left: 24px;
     padding-right: 24px;
+    margin-left: 0;
   }
 }
 
@@ -24,13 +25,17 @@
 {
   .intro {
     max-width: 690px;
+    padding-left: 0px;
+    padding-right: calc(928px - 690px);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1280px)
 {
   .intro {
-    padding-left: 0;
+    padding-right: calc(984px - 690px);
   }
 }
 

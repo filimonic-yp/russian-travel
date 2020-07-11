@@ -10,8 +10,11 @@
 @media screen and (min-width: 768px)
 {
   .footer__link {
-    margin-left: 18px;
-    margin-bottom: 0px;
+      margin-left: 18px;
+      margin-bottom: 0;
+  }
+  .footer__link:first-of-type {
+    margin-left: 0;
   }
 }
 
